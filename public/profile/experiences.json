@@ -5,13 +5,12 @@
             "subtitle": "Innovative Code Labs Pvt. Ltd.",
             "workType": "Full-time",
             "workDescription": [
-                "Worked on 4 projects (marketplaces)",
-                "Implemented Search functionality using **Algolia**",
-                "Implemented Chatting Module (frontend + backend) using **socket.io**",
-                "Worked on integration of stripe ACH payments & payouts system in marketplace",
-                "Developing APIs and performing **CRUD** operations to enable efficient data management",
-                "Collaborating closely with clients to understand their requirements and tailored development accordingly",
-                "**Technology**: MERN stack (MongoDB, Express.js, React.js, Node.js), **Sharetribe** (low code platform), **AWS S3**, **AWS Lambda**, **Stripe**"
+                "Developed real-time **Algolia**-based Search functionality,  leading to **instant search result** retrieval and significantly improving user experience.",
+                "Providing **assistance** to colleagues for **improved collaboration** and knowledge sharing.",
+                "Created a **Chatting Module** (frontend + backend) using **socket.io**, eliminating reliance on paid platforms like SendBird. This resulted in annual cost savings of approximately **$4,788 (12 months x $399/month)**",
+                "Implemented **ACH Payments functionality** within the **Stripe**  integration, streamlining payment processes and reducing costs by eliminating potential MDR charges. This led to **direct cost savings** varying per transaction and processed volume",
+                "Closely Collaborated with the client & successfully delivered milestones",
+                "Technologies employed: **MERN** stack, **Sharetribe** (low code platform), **AWS**"
             ],
             "dateText": "02/2023 – Present"
         },
@@ -20,12 +19,11 @@
             "subtitle": "Inflolabs Pvt. Ltd.",
             "workType": "Full-time",
             "workDescription": [
-                "Developed **Advertising Framework**, **Storefront Optimization**, **Multiple Payment Gateways**  and **Guiding Tour** functionalities.",
-                "Led frontend development for the **InternetTV** module.",
-                "Implemented APIs and performed CRUD operations for seamless data management.",
-                "Utilized MERN stack, **GraphQL**, and **microservices architecture** to enhance platform performance and scalability.",
-                "Leveraged Node.js, Express.js, PostgreSQL, and GraphQL for efficient data management and retrieval.",
-                "Tech Involved: **NodeJS**, **ReactJS**, **NextJS**, **Redux**, **GraphQL**, **Videojs**, **React Joyride**, **Jest** Unit Testing"
+                "**Optimized** web performance, resulting in a remarkable **30% reduction in loading times**",
+                "Spearheaded the successful development of an **Internet TV** service, transforming an existing OTT platform with multiple services. Led a team of 2 junior developers",
+                "Enhanced user experience significantly **through selective subscription** options, eliminating the need for **comprehensive OTT packages**. This strategic move contributed to a notable **increase in B2B customer acquisition**",
+                "Introduced a user-friendly **Guiding Tour feature** within the management console, **enhancing overall usability** for new customers.",
+                "Engineered APIs & executed **CRUD** operations, optimizing **state management** for enhanced efficiency."
             ],
             "dateText": "08/2021 – 01/2023"
         }
