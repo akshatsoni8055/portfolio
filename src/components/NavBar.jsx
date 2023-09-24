@@ -6,12 +6,17 @@ import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { useCheckMobileScreen } from './utils/hooks';
 
 const styles = {
   logoStyle: {
     width: 50,
     height: 40,
   },
+  link: {
+    padding: '15px',
+    borderBottom: 'solid white 1px'
+  }
 };
 
 const ExternalNavLink = styled.a`
@@ -46,6 +51,7 @@ const NavBar = () => {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
   const [expanded, setExpanded] = useState(false);
+  const isMobile = useCheckMobileScreen();
 
   useEffect(() => {
     fetch(endpoints.navbar, {
@@ -112,6 +118,7 @@ const NavBar = () => {
                     href={section.href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={isMobile ? styles.link : {}}
                     onClick={() => setExpanded(false)}
                     className="navbar__link"
                     theme={theme}
@@ -126,6 +133,7 @@ const NavBar = () => {
                     activeClassName="navbar__link--active"
                     className="navbar__link"
                     to={section.href}
+                    style={isMobile ? styles.link : {}}
                     theme={theme}
                   >
                     {section.title}
